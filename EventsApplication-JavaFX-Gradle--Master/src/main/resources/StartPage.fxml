@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.loose.fis.sre.controllers.StartPageController">
+   <AnchorPane layoutX="-1.0" prefHeight="501.0" prefWidth="700.0">
+      <ImageView fx:id="imgwall" fitHeight="502.0" fitWidth="700.0" layoutY="-1.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
+         <Image url="@Wall.jpg" />
+      </ImageView>
+      <Button fx:id="btnLogin" layoutX="162.0" layoutY="434.0" mnemonicParsing="false" onAction="#openLoginForm" prefHeight="30.0" prefWidth="170.0" text="LOGIN" textOverrun="LEADING_ELLIPSIS" underline="true">
+         <font>
+            <Font name="Bookman Old Style Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRegister" layoutX="359.0" layoutY="434.0" mnemonicParsing="false" onAction="#openRegisterForm" prefHeight="30.0" prefWidth="170.0" text="Register" textOverrun="LEADING_ELLIPSIS" underline="true">
+         <font>
+            <Font name="Bookman Old Style Bold" size="20.0" />
+         </font>
+      </Button>
+   </AnchorPane>
+</AnchorPane>

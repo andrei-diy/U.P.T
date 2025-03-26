@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" prefHeight="500.0" prefWidth="700.0" vgap="10" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.loose.fis.sre.controllers.RegistrationController">
+    <padding>
+        <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+    </padding>
+    <Text id="title-text" fill="#1034c1" text="Register: " wrappingWidth="146.19043040275574" GridPane.columnIndex="1" GridPane.columnSpan="2">
+      <font>
+         <Font name="Book Antiqua" size="27.0" />
+      </font></Text>
+
+    <Label prefHeight="60.0" prefWidth="300.0" text="Username:" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <font>
+         <Font name="Book Antiqua" size="27.0" />
+      </font></Label>
+
+    <TextField fx:id="usernameField" prefHeight="30.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+
+    <Label prefHeight="60.0" prefWidth="250.0" text="Password:" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <font>
+         <Font name="Book Antiqua" size="27.0" />
+      </font></Label>
+
+    <PasswordField fx:id="passwordField" prefHeight="30.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+
+    <Label prefHeight="60.0" prefWidth="250.0" text="Role:" GridPane.columnIndex="1" GridPane.rowIndex="3">
+      <font>
+         <Font name="Book Antiqua" size="27.0" />
+      </font></Label>
+
+    <ChoiceBox fx:id="role" prefHeight="30.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+      <GridPane.margin>
+         <Insets />
+      </GridPane.margin></ChoiceBox>
+
+    <Text fx:id="registrationMessage" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+    <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="3" GridPane.rowIndex="5">
+      <Button fx:id="registerbtn" layoutX="60.0" layoutY="10.0" onAction="#handleRegisterAction" prefHeight="30.0" prefWidth="150.0" text="Register" textFill="#173ba6">
+         <font>
+            <Font name="Book Antiqua Bold" size="17.0" />
+         </font>
+      </Button>
+    </HBox>
+     <Button fx:id="loginbtn" onAction="#openLogin" prefHeight="30.0" prefWidth="150.0" text="Login" textFill="#173ba6" GridPane.columnIndex="1" GridPane.rowIndex="5">
+      <font>
+         <Font name="Book Antiqua Bold" size="17.0" />
+      </font>
+   </Button>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

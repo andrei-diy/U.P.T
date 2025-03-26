@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="225.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.loose.fis.sre.controllers.AddController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Add event : " textFill="#1669bc">
+         <font>
+            <Font name="Book Antiqua Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="49.0" text="Name :">
+         <font>
+            <Font name="Book Antiqua Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="86.0" text="Place :">
+         <font>
+            <Font name="Book Antiqua Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="124.0" text="Date :">
+         <font>
+            <Font name="Book Antiqua Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="160.0" text="N.O.T. :">
+         <font>
+            <Font name="Book Antiqua Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tname" layoutX="139.0" layoutY="48.0" prefHeight="26.0" prefWidth="181.0">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tplace" layoutX="164.0" layoutY="84.0" prefHeight="30.0" prefWidth="157.0">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tdate" layoutX="222.0" layoutY="121.0" prefHeight="31.0" prefWidth="98.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tnot" layoutX="239.0" layoutY="158.0" prefHeight="30.0" prefWidth="80.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="save1" layoutX="14.0" layoutY="176.0" mnemonicParsing="false" onAction="#addEventt" prefHeight="28.0" prefWidth="90.0" text="Insert">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

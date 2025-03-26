@@ -1,0 +1,6 @@
+        MOV X, #-128
+        STR X, #100
+        LDR Y, #100
+        JMP PRC
+DONE:   HLT
+

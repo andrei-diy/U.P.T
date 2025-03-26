@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.loose.fis.sre.controllers.ManagerPageController">
+   <children>
+      <ImageView fitHeight="188.0" fitWidth="250.0" layoutX="23.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@manager.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="242.0" layoutY="23.0" text="Manager:" textFill="#83710d" wrapText="true">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="27.0" />
+         </font></Label>
+      <Label fx:id="namelbl" layoutX="367.0" layoutY="23.0" prefHeight="30.0" prefWidth="200.0" textFill="#83710d" underline="true" wrapText="true">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="btns" layoutX="42.0" layoutY="203.0" mnemonicParsing="false" onAction="#SearchEvent" prefHeight="29.0" prefWidth="114.0" text="My Events">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="editbtn" layoutX="42.0" layoutY="296.0" mnemonicParsing="false" onAction="#Edit" prefHeight="31.0" prefWidth="114.0" text="Edit events">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="42.0" layoutY="250.0" mnemonicParsing="false" onAction="#History" prefHeight="31.0" prefWidth="114.0" text="Reservations">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="42.0" layoutY="344.0" mnemonicParsing="false" onAction="#add" prefHeight="31.0" prefWidth="114.0" text="Add events">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <TableView fx:id="Table" layoutX="275.0" layoutY="129.0" prefHeight="274.0" prefWidth="406.0">
+        <columns>
+          <TableColumn fx:id="Name" prefWidth="146.0" text="Name" />
+          <TableColumn fx:id="Place" prefWidth="114.80001831054688" text="Place" />
+            <TableColumn fx:id="Date" prefWidth="89.79998779296875" text="Date" />
+            <TableColumn fx:id="NOT" minWidth="0.0" prefWidth="43.4000244140625" text="N.O.T." />
+        </columns>
+      </TableView>
+      <Button fx:id="lbtn" layoutX="608.0" layoutY="446.0" maxHeight="30.0" mnemonicParsing="false" onAction="#Logoff" prefHeight="20.0" prefWidth="73.0" text="Logoff">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <ListView fx:id="list" layoutX="242.0" layoutY="125.0" prefHeight="300.0" prefWidth="438.0" />
+      <Button fx:id="Search" layoutX="42.0" layoutY="387.0" mnemonicParsing="false" onAction="#doSearch" prefHeight="31.0" prefWidth="114.0" text="Search">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="srctxt" layoutX="41.0" layoutY="431.0" prefHeight="30.0" prefWidth="200.0">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="22.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
