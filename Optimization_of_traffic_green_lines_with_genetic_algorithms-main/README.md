@@ -1,5 +1,6 @@
 # Revving Up Traffic Efficiency: Unleashing the Power of Genetic Algorithms for Green Lines Optimization
 Algorithm + PTV_Vissim + research + Visual_sim
+
 ```
 //// Compile program ////
 C:\MinGW\bin\gcc.exe -Wall -Wextra -g3 ..\source_code\Functions.c -o c:source_code\output\Functions.exe
@@ -22,3 +23,12 @@ c:\Users\lenovo\Desktop\#_LICENTA_#\source_code\output>.\"Functions.exe"
         ...node_11       distance_125    lanes_3         aditionaldelay_704      offset_200      OUTPUT__46
         ...node_12       distance_220    lanes_3         aditionaldelay_3140     offset_7040     OUTPUT__49
 ```
+
+# 3D Simulation:  
+![](https://github.com/andrei-diy/U.P.T/blob/main/Optimization_of_traffic_green_lines_with_genetic_algorithms-main/final_green_path.png)  
+![](https://github.com/andrei-diy/U.P.T/blob/main/Optimization_of_traffic_green_lines_with_genetic_algorithms-main/PTV_MAP_ALL2.png)
+![](https://github.com/andrei-diy/U.P.T/blob/main/Optimization_of_traffic_green_lines_with_genetic_algorithms-main/Drum_fara_prioritate_conflict.png)
+
+# Jira workflow:  
+![](https://github.com/andrei-diy/U.P.T/blob/main/Optimization_of_traffic_green_lines_with_genetic_algorithms-main/JIRA_epics_VIEW.PNG)
+![](https://github.com/andrei-diy/U.P.T/blob/main/Optimization_of_traffic_green_lines_with_genetic_algorithms-main/JIRA_STORY_VIEW.PNG)
