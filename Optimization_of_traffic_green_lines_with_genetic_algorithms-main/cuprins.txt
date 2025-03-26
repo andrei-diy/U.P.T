@@ -1,0 +1,31 @@
+1.	INTRODUCERE 	6
+1.1.	Motivație în alegerea temei 	6
+1.2.	Algoritmi similari 	7
+2.	FUNDAMENTE TEORETICE 	8
+2.1.	Concept „green line”	8
+2.1.1.	Ce înseamnă “green line”? 	8
+2.1.2.	Implementari ale conceptului     	9
+2.2.	Concept algoritmi „genetici” 	10
+2.2.1.	Ce sunt “ algoritmii genetici ”? 	10
+2.2.2.	Tipuri de algortmi 	11
+2.3.	Tehnologii folosite 	12
+2.3.1.	VS Code 	12
+2.3.2.	PTV Vissim 	14
+3.	IMPLEMENTARE ALGORITM SINCRONIZARE 	16
+3.2.	Design logica rutiera 	16
+3.2.1.	Analizare parametrii autovehicule 	18
+3.2.2.	Sincronizarea intersectiilor semaforizate 	20
+4.	IMPLEMENTARE ALGORITM „GENETIC”	22
+4.2.	Alegere tip algoritm 	22
+4.3.	Implementare algoritm 	23
+4.4.	Generare solutii 	24
+5.	REPREZENTARE GRAFICA 	26
+5.2.	Design retea rutiera	26
+5.2.1.	Implementare intersectii  	27
+5.2.2.	Implementare sincronizare 	30
+5.3.	Animatie 3D a solutiei generate	32
+6.	REZULTATE	34
+6.1 Performanta solutiei 	34
+6.2 Metrici simulare 3D	36
+7.	CONCLUZII	38
+7.2.	Direcții de dezvoltare	39
